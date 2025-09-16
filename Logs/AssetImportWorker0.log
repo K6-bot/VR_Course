@@ -247,3 +247,11 @@ Received Import Request.
 Start importing Assets/New Terrain 1.asset using Guid(a75fa7e9594df444694865153d23ecce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd15cf74a938e3b0022dcb8c756a5fa1d') in 0.02273625 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
+========================================================================
+Received Import Request.
+  Time since last request: 314.782274 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(a75fa7e9594df444694865153d23ecce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(a75fa7e9594df444694865153d23ecce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e3f3b209136aaac192a1b33d39b91a5') in 0.018127875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
