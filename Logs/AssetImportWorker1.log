@@ -229,3 +229,12 @@ Unloading 4 unused Assets / (20.5 KB). Loaded Objects now: 506.
 Memory consumption went from 62.1 MB to 62.1 MB.
 Total: 4.472667 ms (FindLiveObjects: 0.022875 ms CreateObjectMapping: 0.002708 ms MarkObjects: 4.387583 ms  DeleteObjects: 0.058750 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 24589.555642 seconds.
+  path: Assets/Numena/Plants/Lemon/Source/Textures/Lemon Bark Normal.png
+  artifactKey: Guid(8c03514cee68022409c778c5912c6426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Numena/Plants/Lemon/Source/Textures/Lemon Bark Normal.png using Guid(8c03514cee68022409c778c5912c6426) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[Licensing::Client] Successfully resolved entitlement details
+ -> (artifact id: '562ffeedcf5a14e2d9af0a51baafb04e') in 0.262773667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
