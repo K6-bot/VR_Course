@@ -505,3 +505,11 @@ Received Import Request.
 Start importing Assets/VR Material/Numena/Plants/Lemon/Prefabs With Fruits/Lemon Tree 2 w Fruits.prefab using Guid(e1a86f799eb10924597db250eb786896) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aaf8adc1e0b2869c3cc1271b963b8a41') in 0.00811025 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
 
+========================================================================
+Received Import Request.
+  Time since last request: 581.276877 seconds.
+  path: Assets/VR Material/Numena/Plants/Lemon/Prefabs With Fruits/Lemon Tree 1 w Fruits.prefab
+  artifactKey: Guid(46dea74f7999f4c4f9d26ad24b8282c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Material/Numena/Plants/Lemon/Prefabs With Fruits/Lemon Tree 1 w Fruits.prefab using Guid(46dea74f7999f4c4f9d26ad24b8282c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f96450bed8d8c20c72f29173d989772') in 0.0503145 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
