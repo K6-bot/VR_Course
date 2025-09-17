@@ -7,9 +7,9 @@ Darwin version:          25.0.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        16384 MB
-Date:                    2025-09-16T09:56:02Z
+Date:                    2025-09-17T02:02:14Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-kenluk" at "2025-09-16T09:56:02.059766Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-kenluk" at "2025-09-17T02:02:14.099603Z"
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/MacOS/Unity
@@ -23,7 +23,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50958
+51930
 -licensingIpc
 LicenseClient-kenluk
 -job-worker-count
@@ -72,7 +72,7 @@ Successfully changed project path to: /Users/kenluk/Desktop/AR Project/TB_VR_Cou
     "memorysetup-temp-allocator-size-gfx=262144"
 Player connection [8639858688]  Target information:
 
-Player connection [8639858688]  * "[IP] 10.0.151.88 [Port] 0 [Flags] 2 [Guid] 2829229994 [EditorId] 2829229994 [Version] 1048832 [Id] OSXEditor(0,Yims-MacBook-Pro-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8639858688]  * "[IP] 192.168.98.148 [Port] 0 [Flags] 2 [Guid] 1387827051 [EditorId] 1387827051 [Version] 1048832 [Id] OSXEditor(0,Yims-MacBook-Pro-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
 Player connection [8639858688] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [8639858688] Host joined alternative multi-casting on [225.0.0.222:34997]...
@@ -81,25 +81,6 @@ Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
 Library Redirect Path: Library/
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 4596, path: "/Applications/Unity Hub.app/Contents/Frameworks/UnityLicensingClient_V1.app/Contents/MacOS/Unity.Licensing.Client")
-[Licensing::Module] LicensingClient has failed validation; ignoring
-[Licensing::Client] Error: HandshakeResponse reported an error:
-	ResponseCode: 505
-	ResponseStatus: Unsupported protocol version '1.17.2'.
-[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-kenluk"
-[Licensing::IpcConnector] LicenseClient-kenluk channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-kenluk-6000.2.2" at "2025-09-16T09:56:04.772077Z"
-[Licensing::Client] Code 1 while verifying Licensing Client signature (process Id: 5235, path: "/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Frameworks/UnityLicensingClient.app/Contents/MacOS/Unity.Licensing.Client")
-[Licensing::Module] LicensingClient has failed validation; ignoring
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.17.2+ff71f16
-  Session Id:              65f7fa009c894972ba310da5005475df
-  Correlation Id:          0f3e3dd67acf63cb32303e628a941a42
-  External correlation Id: 6074511352288198091
-  Machine Id:              nFcarRiksQrQ/5GeN6jVmhkXnRg=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-kenluk-6000.2.2" (connect: 0.00s, validation: 0.02s, handshake: 0.03s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-kenluk-6000.2.2-notifications" at "2025-09-16T09:56:04.815446Z"
-[Licensing::Module] Licensing Background thread has ended after 2.76s
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
 [Physics::Module] Id: 0xf2b8ea05
@@ -127,10 +108,31 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56248
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56983
 Begin MonoManager ReloadAssembly
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 7917, path: "/Applications/Unity Hub.app/Contents/Frameworks/UnityLicensingClient_V1.app/Contents/MacOS/Unity.Licensing.Client")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.17.2'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-kenluk"
+[Licensing::IpcConnector] LicenseClient-kenluk channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-kenluk-6000.2.2" at "2025-09-17T02:02:15.080234Z"
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Code 1 while verifying Licensing Client signature (process Id: 7937, path: "/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Frameworks/UnityLicensingClient.app/Contents/MacOS/Unity.Licensing.Client")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.2+ff71f16
+  Session Id:              55018b5f98cd458f88f84882cf4ba045
+  Correlation Id:          e56ed3810da6dec99760ac5beff86eb0
+  External correlation Id: 9011617700905129246
+  Machine Id:              nFcarRiksQrQ/5GeN6jVmhkXnRg=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-kenluk-6000.2.2" (connect: 0.00s, validation: 0.59s, handshake: 0.05s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-kenluk-6000.2.2-notifications" at "2025-09-17T02:02:15.721216Z"
+[Licensing::Module] Licensing Background thread has ended after 1.62s
+[Licensing::Module] Licensing is initialized (took 0.59s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 20066147878057-UnityPersXXXX
@@ -138,41 +140,41 @@ Register platform support module: /Applications/Unity/Hub/Editor/6000.2.2f1/Unit
   Type: Assigned
   Expiration: Unlimited
 Register platform support module: /Applications/Unity/Hub/Editor/6000.2.2f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.003330 seconds.
-- Loaded All Assemblies, in  0.431 seconds
+Registered in 1.182814 seconds.
+- Loaded All Assemblies, in  2.082 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 113 ms
+Android Extension - Scanning For ADB Devices 238 ms
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.611 seconds
-Domain Reload Profiling: 1043ms
-	BeginReloadAssembly (103ms)
+- Finished resetting the current domain, in  0.882 seconds
+Domain Reload Profiling: 2963ms
+	BeginReloadAssembly (224ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (50ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (201ms)
-		LoadAssemblies (103ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (1251ms)
+	LoadAllAssembliesAndSetupDomain (530ms)
+		LoadAssemblies (225ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (197ms)
-			TypeCache.Refresh (196ms)
-				TypeCache.ScanAssembly (178ms)
+		AnalyzeDomain (524ms)
+			TypeCache.Refresh (522ms)
+				TypeCache.ScanAssembly (488ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (612ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (882ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (565ms)
+		SetupLoadedEditorAssemblies (818ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (214ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (82ms)
-			ProcessInitializeOnLoadAttributes (173ms)
-			ProcessInitializeOnLoadMethodAttributes (91ms)
+			InitializePlatformSupportModulesInManaged (428ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (133ms)
+			ProcessInitializeOnLoadAttributes (182ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -182,59 +184,418 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  0.376 seconds
+- Loaded All Assemblies, in  0.241 seconds
 Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.327 seconds
-Domain Reload Profiling: 703ms
-	BeginReloadAssembly (240ms)
+- Finished resetting the current domain, in  0.322 seconds
+Domain Reload Profiling: 563ms
+	BeginReloadAssembly (139ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (56ms)
-	RebuildCommonClasses (66ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (27ms)
-		LoadAssemblies (104ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (25ms)
+		LoadAssemblies (70ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (23ms)
-			TypeCache.Refresh (20ms)
-				TypeCache.ScanAssembly (11ms)
-			BuildScriptInfoCaches (1ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (9ms)
+			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (328ms)
+	FinalizeReload (322ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (208ms)
+		SetupLoadedEditorAssemblies (214ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (68ms)
-			ProcessInitializeOnLoadAttributes (103ms)
-			ProcessInitializeOnLoadMethodAttributes (22ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (110ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (3ms)
 Launching external process: /Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.67 seconds
 Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4 unused Assets / (20.5 KB). Loaded Objects now: 506.
-Memory consumption went from 62.1 MB to 62.1 MB.
-Total: 4.472667 ms (FindLiveObjects: 0.022875 ms CreateObjectMapping: 0.002708 ms MarkObjects: 4.387583 ms  DeleteObjects: 0.058750 ms)
+Unloading 4 unused Assets / (21.0 KB). Loaded Objects now: 525.
+Memory consumption went from 71.7 MB to 71.7 MB.
+Total: 7.675708 ms (FindLiveObjects: 0.041334 ms CreateObjectMapping: 0.005541 ms MarkObjects: 7.539833 ms  DeleteObjects: 0.088209 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 24589.555642 seconds.
-  path: Assets/Numena/Plants/Lemon/Source/Textures/Lemon Bark Normal.png
-  artifactKey: Guid(8c03514cee68022409c778c5912c6426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Numena/Plants/Lemon/Source/Textures/Lemon Bark Normal.png using Guid(8c03514cee68022409c778c5912c6426) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[Licensing::Client] Successfully resolved entitlement details
- -> (artifact id: '562ffeedcf5a14e2d9af0a51baafb04e') in 0.262773667 seconds
+  Time since last request: 41954.139511 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(a75fa7e9594df444694865153d23ecce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(a75fa7e9594df444694865153d23ecce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e3855d8ef7c7cd00f48c07fc89fd6ff') in 0.040692625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.164943 seconds.
+  path: Assets/Terrain Material/forest_ground_04_diff_4k.jpg
+  artifactKey: Guid(3e1a968175625413f935e25a57017585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Material/forest_ground_04_diff_4k.jpg using Guid(3e1a968175625413f935e25a57017585) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[Licensing::Client] Successfully resolved entitlement details
+ -> (artifact id: 'a1e1271cd0ed784c09bcae6a1e8b18c0') in 0.043501084 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Terrain Material/pngimg.com - grass_PNG4933.png
+  artifactKey: Guid(9f86ff00e87d54a3e8f3401c14cc4768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Material/pngimg.com - grass_PNG4933.png using Guid(9f86ff00e87d54a3e8f3401c14cc4768) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '024f2587a0c1729179e8dd0fad515fed') in 0.007069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Terrain Material/snow_floor_disp_4k.png
+  artifactKey: Guid(8d7d5b6f949d44720897cf49b0e515d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Material/snow_floor_disp_4k.png using Guid(8d7d5b6f949d44720897cf49b0e515d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd05a15008bebb7041de048b0941ce64f') in 0.0066345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Terrain Material/rocky_terrain_02_diff_4k.jpg
+  artifactKey: Guid(71d2c28a3127d42d7994796eb8b8f52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Material/rocky_terrain_02_diff_4k.jpg using Guid(71d2c28a3127d42d7994796eb8b8f52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '912a6ff2dcd6c0efd47c2339e1c5a03e') in 0.007714292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 423.447006 seconds.
+  path: Assets/NewLayer.terrainlayer
+  artifactKey: Guid(155d658ad4e124286bf40dfcb0b13274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer.terrainlayer using Guid(155d658ad4e124286bf40dfcb0b13274) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6aca558224618feae14b6da35100d541') in 0.043624583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/NewLayer 3.terrainlayer
+  artifactKey: Guid(09860ea25ed3044a38e95c8f3b336465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer 3.terrainlayer using Guid(09860ea25ed3044a38e95c8f3b336465) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc1223fa5da39f10ec1666c2fcc5e5ba') in 0.00754375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 525.995943 seconds.
+  path: Assets/Numena/Plants/Lemon/Terain Prefabs/Lemon Tree 2 Terrain.prefab
+  artifactKey: Guid(dc41cdb983cf13b499619e70eaf48fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Numena/Plants/Lemon/Terain Prefabs/Lemon Tree 2 Terrain.prefab using Guid(dc41cdb983cf13b499619e70eaf48fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e31a35928c5d6330866169cdd79816eb') in 0.512550208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Numena/Plants/Lemon/Source/lemon trees.fbx
+  artifactKey: Guid(ef80fce6f167feb4392b15e0aedf35d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Numena/Plants/Lemon/Source/lemon trees.fbx using Guid(ef80fce6f167feb4392b15e0aedf35d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a390c7d2691cdd89a77e94d5be3d3b14') in 0.75148925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Numena/Plants/Lemon/Prefabs With Fruits/Lemon Tree 3 w Fruits.prefab
+  artifactKey: Guid(67762154df3b7ca4eaaebcc646c11bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Numena/Plants/Lemon/Prefabs With Fruits/Lemon Tree 3 w Fruits.prefab using Guid(67762154df3b7ca4eaaebcc646c11bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be019d3b1594bbd3b08a7dfdc95062a5') in 0.01267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 714.308041 seconds.
+  path: Assets/Terrain Material/NewLayer.terrainlayer
+  artifactKey: Guid(155d658ad4e124286bf40dfcb0b13274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Material/NewLayer.terrainlayer using Guid(155d658ad4e124286bf40dfcb0b13274) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a4b2077c7635c50c589b66ca78e2be2') in 0.013738833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Terrain Material/NewLayer 3.terrainlayer
+  artifactKey: Guid(09860ea25ed3044a38e95c8f3b336465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Material/NewLayer 3.terrainlayer using Guid(09860ea25ed3044a38e95c8f3b336465) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07bc552021056cd158e9d70a28335144') in 0.009407958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+<<<<<<< HEAD
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16fd0f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.224 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.342 seconds
+Domain Reload Profiling: 566ms
+	BeginReloadAssembly (141ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (11ms)
+		LoadAssemblies (67ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (342ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (233ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (120ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (0 B). Loaded Objects now: 552.
+Memory consumption went from 82.1 MB to 82.1 MB.
+Total: 4.684708 ms (FindLiveObjects: 0.029625 ms CreateObjectMapping: 0.003292 ms MarkObjects: 4.636333 ms  DeleteObjects: 0.015167 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16fa53000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.185 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.345 seconds
+Domain Reload Profiling: 530ms
+	BeginReloadAssembly (109ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (10ms)
+		LoadAssemblies (49ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (345ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (236ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (122ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (0 B). Loaded Objects now: 552.
+Memory consumption went from 87.5 MB to 87.5 MB.
+Total: 4.749166 ms (FindLiveObjects: 0.033667 ms CreateObjectMapping: 0.004250 ms MarkObjects: 4.698708 ms  DeleteObjects: 0.012250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16fa53000 may have been prematurely finalized
+- Loaded All Assemblies, in  1.773 seconds
+Refreshing native plugins compatible for Editor in 3.66 ms, found 2 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.354 seconds
+Domain Reload Profiling: 3128ms
+	BeginReloadAssembly (710ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (35ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (903ms)
+		LoadAssemblies (689ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (412ms)
+			TypeCache.Refresh (309ms)
+				TypeCache.ScanAssembly (277ms)
+			BuildScriptInfoCaches (74ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (1354ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (939ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (265ms)
+			ProcessInitializeOnLoadAttributes (576ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 47 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6131 unused Assets / (9.9 MB). Loaded Objects now: 6803.
+Memory consumption went from 168.4 MB to 158.5 MB.
+Total: 22.108792 ms (FindLiveObjects: 1.390000 ms CreateObjectMapping: 1.526542 ms MarkObjects: 10.051250 ms  DeleteObjects: 9.140416 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 47 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (4.6 MB). Loaded Objects now: 6803.
+Memory consumption went from 140.1 MB to 135.4 MB.
+Total: 11.194917 ms (FindLiveObjects: 0.305500 ms CreateObjectMapping: 0.227291 ms MarkObjects: 8.446458 ms  DeleteObjects: 2.215042 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 2737.189643 seconds.
+  path: Assets/Numena/Plants/Lemon/Source/Materials/Lemon Bark.mat
+  artifactKey: Guid(c5cedbf48b824b1419e18ddea44455cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Numena/Plants/Lemon/Source/Materials/Lemon Bark.mat using Guid(c5cedbf48b824b1419e18ddea44455cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1def19c825892be9c1199640a8f0f92b') in 1.058460875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Numena/Plants/Lemon/Source/Materials/Lemon Bark Terrain.mat
+  artifactKey: Guid(8d8a27f4d3d525c4b877764b7dc7b7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Numena/Plants/Lemon/Source/Materials/Lemon Bark Terrain.mat using Guid(8d8a27f4d3d525c4b877764b7dc7b7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b72a13b45ad3a92a118edcc5befeef4f') in 0.007481584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.286140 seconds.
+  path: Assets/Numena/Plants/Lemon/Lemon Tree 2.prefab
+  artifactKey: Guid(631dcab7c4e7c22418d6f6fa3dd74c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Numena/Plants/Lemon/Lemon Tree 2.prefab using Guid(631dcab7c4e7c22418d6f6fa3dd74c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5fd852055dba6898561169f19b8f4fe8') in 0.035414 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Numena/Plants/Lemon/Lemon Tree 3.prefab
+  artifactKey: Guid(9b77d12e48b7f364a82333485eca4473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Numena/Plants/Lemon/Lemon Tree 3.prefab using Guid(9b77d12e48b7f364a82333485eca4473) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e93a52e01a0f164ae3fedb9471a09c9f') in 0.012377334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 86.075220 seconds.
+  path: Assets/New Universal Render Pipeline Asset_Renderer.asset
+  artifactKey: Guid(20dd2ed22d0ee40628a93f1ac2d2460f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Universal Render Pipeline Asset_Renderer.asset using Guid(20dd2ed22d0ee40628a93f1ac2d2460f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57fbd93efffde6ad3c24aafc1cc1612a') in 0.001164875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.328234 seconds.
+  path: Assets/Settings/Mobile_Renderer.asset
+  artifactKey: Guid(65bc7dbf4170f435aa868c779acfb082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Mobile_Renderer.asset using Guid(65bc7dbf4170f435aa868c779acfb082) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd246be45d650b496251a8b2536b3002f') in 0.001430542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Settings/PC_RPAsset.asset
+  artifactKey: Guid(4b83569d67af61e458304325a23e5dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/PC_RPAsset.asset using Guid(4b83569d67af61e458304325a23e5dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db197cde3899097fb35a5e04db69c105') in 0.000627958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Settings/Mobile_RPAsset.asset
+  artifactKey: Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Mobile_RPAsset.asset using Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f72d667b303dfb429e5dcf2797d7d7c') in 0.00137525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 429.081595 seconds.
+  path: Assets/Numena/Plants/Lemon/Source/lemon 3 terrain mesh.asset
+  artifactKey: Guid(9cebe566ed4bc914a911431512a808a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Numena/Plants/Lemon/Source/lemon 3 terrain mesh.asset using Guid(9cebe566ed4bc914a911431512a808a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4094a3cf9f2bd68587c339968497a8db') in 0.093302292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Numena/Plants/Lemon/Source/lemon trees.fbx
+  artifactKey: Guid(ef80fce6f167feb4392b15e0aedf35d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Numena/Plants/Lemon/Source/lemon trees.fbx using Guid(ef80fce6f167feb4392b15e0aedf35d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '334999db11da24b2e068b7781e1381cc') in 0.071452166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 480.598386 seconds.
+  path: Assets/Numena/Plants/Lemon/Source/Materials/Lemon Bark.mat
+  artifactKey: Guid(c5cedbf48b824b1419e18ddea44455cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Numena/Plants/Lemon/Source/Materials/Lemon Bark.mat using Guid(c5cedbf48b824b1419e18ddea44455cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7a1a3a44a4d9e14b07bde78c62cdc1f') in 9.503037709 seconds
+Number of updated asset objects reloaded before import = 21Number of asset objects unloaded after import = 4
+
+=======
+>>>>>>> parent of 61995303 (snowman add rigid body)
