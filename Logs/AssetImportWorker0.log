@@ -272,3 +272,83 @@ Received Import Request.
 Start importing Assets/NewLayer 2.terrainlayer using Guid(6e54fc2fe0bf84b269b36f2505e8341b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '944bfbd9548dc9208fafd979ec13da84') in 0.007702625 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
+========================================================================
+Received Import Request.
+  Time since last request: 267.998086 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7248cec940a177b9a1b129bea2d0a64e') in 0.003723666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.465949 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c391582d739b6e62a5220f35cbb167ac') in 0.0003695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 237.524856 seconds.
+  path: Assets/Numena/Plants/Lemon/Prefabs With Fruits/Lemon Tree 1 w Fruits.prefab
+  artifactKey: Guid(46dea74f7999f4c4f9d26ad24b8282c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Numena/Plants/Lemon/Prefabs With Fruits/Lemon Tree 1 w Fruits.prefab using Guid(46dea74f7999f4c4f9d26ad24b8282c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb814753945d41e5046e02a0493c1f1c') in 0.070008291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Numena/Plants/Lemon/Prefabs With Fruits/Lemon Tree 4 w Fruits.prefab
+  artifactKey: Guid(c1293ad6a2baf184c92d003aa923c284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Numena/Plants/Lemon/Prefabs With Fruits/Lemon Tree 4 w Fruits.prefab using Guid(c1293ad6a2baf184c92d003aa923c284) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cba41849d910b81fa1a4ae3f589ac3e7') in 0.006034709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Numena/Plants/Lemon/Terain Prefabs/Lemon Tree 3 Terrain.prefab
+  artifactKey: Guid(6307fd731e2247b479cddefb30b094fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Numena/Plants/Lemon/Terain Prefabs/Lemon Tree 3 Terrain.prefab using Guid(6307fd731e2247b479cddefb30b094fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86343aeeac6a5430f65a649e647017b2') in 0.454866375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Numena/Plants/Lemon/Terain Prefabs/Lemon Tree 4 Terrain.prefab
+  artifactKey: Guid(c1af1c199f153a340921be4c20ccb38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Numena/Plants/Lemon/Terain Prefabs/Lemon Tree 4 Terrain.prefab using Guid(c1af1c199f153a340921be4c20ccb38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82f0ceae79c09781fdb7b002808b4dc0') in 0.0081875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Numena/Plants/Lemon/Source/lemon trees w fruits.fbx
+  artifactKey: Guid(98b0ccf8b6592394f847463b75d797f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Numena/Plants/Lemon/Source/lemon trees w fruits.fbx using Guid(98b0ccf8b6592394f847463b75d797f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10644b6434019140393e9a919d329990') in 0.725979375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Numena/Plants/Lemon/Prefabs With Fruits/Lemon Tree 2 w Fruits.prefab
+  artifactKey: Guid(e1a86f799eb10924597db250eb786896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Numena/Plants/Lemon/Prefabs With Fruits/Lemon Tree 2 w Fruits.prefab using Guid(e1a86f799eb10924597db250eb786896) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b80d942508d9b773c0b2e66f279c330') in 0.011484667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 288.914899 seconds.
+  path: Assets/Terrain Material/NewBrush.brush
+  artifactKey: Guid(49f2e4fd2958b452ebd1597cf51b4dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Material/NewBrush.brush using Guid(49f2e4fd2958b452ebd1597cf51b4dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a8b618c6f4fc06a6e4e3613739dca52') in 0.081960417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 425.309383 seconds.
+  path: Assets/Terrain Material/New Terrain 1.asset
+  artifactKey: Guid(a75fa7e9594df444694865153d23ecce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Material/New Terrain 1.asset using Guid(a75fa7e9594df444694865153d23ecce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9967c4deb16de87c552b3872608b8390') in 0.030698375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
