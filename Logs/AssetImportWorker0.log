@@ -231,3 +231,44 @@ Unloading 4 unused Assets / (21.0 KB). Loaded Objects now: 525.
 Memory consumption went from 71.7 MB to 71.7 MB.
 Total: 7.662041 ms (FindLiveObjects: 0.041541 ms CreateObjectMapping: 0.005417 ms MarkObjects: 7.524375 ms  DeleteObjects: 0.089833 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 42037.345321 seconds.
+  path: Assets/Terrain Material/aerial_grass_rock_diff_4k.jpg
+  artifactKey: Guid(03e0ef01cabfb4b7b837dc1b7c46a950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Material/aerial_grass_rock_diff_4k.jpg using Guid(03e0ef01cabfb4b7b837dc1b7c46a950) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[Licensing::Client] Successfully resolved entitlement details
+ -> (artifact id: 'ee0b7555d29b2501d6cdc348c4c579fd') in 0.061697542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Terrain Material/pngegg.png
+  artifactKey: Guid(e2a153a4041864f47b587b4d93ce974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Material/pngegg.png using Guid(e2a153a4041864f47b587b4d93ce974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af40505b5ceb30e124b00de105d8aa26') in 0.007649625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 423.439132 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(a75fa7e9594df444694865153d23ecce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(a75fa7e9594df444694865153d23ecce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4f4c4a226e4f8dcb3a466a719afeea8') in 0.011137916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/NewLayer 1.terrainlayer
+  artifactKey: Guid(ad6ad2463199d4005a16994104c5a461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer 1.terrainlayer using Guid(ad6ad2463199d4005a16994104c5a461) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d100f84c20ba737f3fc629fec3678ab') in 0.03656675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/NewLayer 2.terrainlayer
+  artifactKey: Guid(6e54fc2fe0bf84b269b36f2505e8341b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer 2.terrainlayer using Guid(6e54fc2fe0bf84b269b36f2505e8341b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '944bfbd9548dc9208fafd979ec13da84') in 0.007702625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
